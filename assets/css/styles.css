@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 560px;
+    height: 560px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.counterSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counterNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 10px 0 10px;
+    border: 1px solid black;
+    height: 60px;
+    border-radius: 6px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    background-color: white;
+}
+
+#minus{
+    background-color: rgb(247, 42, 42);
+}
+
+#plus{
+    background-color: rgb(60, 241, 60);
+}
+
+#minus,
+#plus {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Pixelify Sans', cursive;
+    color: white;
+    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    border-radius: 7px;
+}
+
+#reset {
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Pixelify Sans', cursive;
+    background-color: rgb(236, 236, 53);
+    border-radius: 4px;
+}
+
+#minus, #plus, #reset{
+    cursor: pointer;
+}
+
+#minus:active{
+    background-color: rgb(252, 138, 138);
+}
+
+#plus:active{
+    background-color: rgb(152, 250, 152);;
+}
+
+#reset:active{
+    background-color: rgb(251, 251, 139);
+}
+
+#volume{
+    background-color: wheat;
+    margin-top: 30px;
+    width: 32px;
+}
+
+#volume:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px){
+    .counterSection{
+        flex-direction: column-reverse;
+    }
+
+    #counterNumber{
+        margin: 20px 0 20px 0;
+        width: 80vw;
+    }
+
+    #minus, #plus{
+        width: 50vw;
+    }
+
+    #reset{
+        width: 30vw;
+        font-size: 20px;
+    }
+
+    #volume{
+        border: 2px solid black;
+        padding: 2px;
+    }
+}
