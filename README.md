@@ -62,7 +62,14 @@ And changes image based on whether the audio is on or not.
 ![SoundActive](assets/images/volume.png)
 ![SoundMuted](assets/images/mute.png)
 
+## 🔗 Links
+
+For my Github ----> https://github.com/Atlashish      
+For my Work ------> https://counterjatlashish.netlify.app/
+
 
 ## Authors
 
 - [@Atlashish](https://github.com/Atlashish/)
+
+
