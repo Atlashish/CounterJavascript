@@ -1,6 +1,6 @@
 # Counter made with JavaScript
 
-![Banner](assets/images/Screenshot%20Counter.png)
+![Banner](assets/images/Screenshot-Counter.png)
 
 This is a simple counter which allows you to add or decrease the value by pressing the + and - keys.
 A reset button has also been added to completely reset the counter.
